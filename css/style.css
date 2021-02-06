@@ -1,0 +1,70 @@
+header {
+  background: url("../img/header.jpg") no-repeat center center/cover;
+  position: relative;
+}
+header .container {
+  padding-top: 80px;
+}
+
+.header-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.book-overview-card .col-lg-3:nth-child(odd) > .card {
+  border: 1px solid #dc3545 !important;
+}
+.book-overview-card .col-lg-3:nth-child(even) > .card {
+  background: #dc3545 !important;
+  color: white;
+}
+
+.why {
+  background: #fafafa;
+}
+.btn-light {
+  background: rgb(241, 241, 241) !important;
+}
+.authors .card {
+  position: relative;
+}
+.authors .card-body {
+  padding-top: 100px;
+}
+.author-profile {
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  bottom: 100%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  object-fit: cover;
+}
+.author-card {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.author-card:hover {
+  background: #dc3545;
+  color: white !important;
+}
+.social {
+  visibility: hidden;
+}
+.author-card:hover .social {
+  visibility: visible;
+  display: flex;
+}
+
+.contact-form > i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+}
+textarea {
+  height: 100px;
+}
